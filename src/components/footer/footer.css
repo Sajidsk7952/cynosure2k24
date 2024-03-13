@@ -64,7 +64,7 @@ a {
   /* padding-left: 0px; */
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 500px) {
   .footer {
     display: flex;
     flex-direction: column;

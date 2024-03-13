@@ -3,7 +3,7 @@ import { cynosureEvents } from "../../assests/data"; // Corrected import stateme
 // import { Link } from "react-router-dom";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import "./event.css";
+import "./events.css";
 import { useNavigate } from "react-router-dom";
 const Cards = () => {
   const navigate = useNavigate();

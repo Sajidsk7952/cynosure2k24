@@ -8,18 +8,25 @@
 }
 
 .videoContainer{
-    width: 50%;
-    /* overflow: hidden; */
+    width: fit-content;
+    overflow: hidden;
 }
-.react-player{
-    width: 100%;
+.video-responsive{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
     height: fit-content;
     /* overflow: hidden; */
 }
+.video-responsive iframe{
+    width: 500px;
+    height: 300px;
+}
 @media screen  and (max-width: 370px){
     .videoBox{
-        margin-bottom: 150px;
-        display: none;
+        /* margin-bottom: 150px; */
+        /* display: none; */
+        width: 320px;
     }
     .videoContainer{
         height: 200px;

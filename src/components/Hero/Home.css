@@ -134,12 +134,12 @@ span {
   }
 }
 
-.arrow-scroll {
+/* .arrow-scroll {
   position: relative;
   height: 17em;
-}
+} */
 
-.arrow {
+/* .arrow {
   border: solid #d0d0e0;
   border-width: 0 5px 5px 0;
   display: inline-block;
@@ -170,7 +170,7 @@ span {
     top: 50%;
     opacity: 0;
   }
-}
+} */
 
 #container3D canvas {
   width: 100vw;
@@ -179,9 +179,10 @@ span {
   top: 0;
   left: 0;
 }
-section {
+.screen {
   height: 100vh;
   overflow: hidden;
+  /* width: 100%; */
 }
 
 .bg img {
@@ -256,6 +257,9 @@ section {
   }
   .fore img{
     display: none;
+  }
+  .screen{
+    width: 100%;
   }
 }
 
