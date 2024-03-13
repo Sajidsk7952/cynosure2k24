@@ -1,0 +1,32 @@
+.videoBox {
+  width: 100%;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(2, 0, 15);
+}
+
+.videoContainer{
+    width: 50%;
+    /* overflow: hidden; */
+}
+.react-player{
+    width: 100%;
+    height: fit-content;
+    /* overflow: hidden; */
+}
+@media screen  and (max-width: 370px){
+    .videoBox{
+        margin-bottom: 150px;
+        display: none;
+    }
+    .videoContainer{
+        height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .react-player{
+        width: 150px;
+    }
+}

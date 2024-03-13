@@ -1,0 +1,72 @@
+.register_container {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.register_head {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 2px 4px 6px lightgray;
+}
+
+.register_text{
+    text-align: center;
+    color: gainsboro;
+    font-size: 25px;
+    margin: 15px 5px;
+    text-transform: capitalize;
+}
+
+
+.register_plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .register_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.register_background{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.register_page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.register_plans {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.register_page {
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}

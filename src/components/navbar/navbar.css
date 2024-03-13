@@ -1,0 +1,47 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+.logo{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav_button{
+    padding: 0.8rem 1.3rem;
+    font-size: 20px;
+    /* box-shadow: 4px 4px rgb(56, 55, 55); */
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    animation: box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.nav_button:hover{
+    /* transform: translate(4px,4px); */
+    box-shadow: none;
+    animation: glowEffect 0.5s ease-in infinite;
+    /* animation-delay: 0.5s; */
+}
+@keyframes glowEffect {
+    0%{
+        box-sizing: none;
+        background-color: transparent;
+        color: white;
+    }
+    100%{
+        box-shadow: 4px 4px 8px rgb(3, 85, 247), -4px -4px 8px rgb(3, 85, 247);
+        background-color: rgb(3, 85, 247);
+    }
+}
+a{
+    text-decoration: none;
+}
