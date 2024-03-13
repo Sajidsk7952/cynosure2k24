@@ -1,39 +1,37 @@
 .videoBox {
-  width: 100%;
-  padding: 15px 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(2, 0, 15);
-}
-
-.videoContainer{
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 0, 15);
+  }
+  
+  .videoContainer {
     width: fit-content;
     overflow: hidden;
-}
-.video-responsive{
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    height: fit-content;
-    /* overflow: hidden; */
-}
-.video-responsive iframe{
-    width: 500px;
-    height: 300px;
-}
-@media screen  and (max-width: 370px){
-    .videoBox{
-        /* margin-bottom: 150px; */
-        /* display: none; */
-        width: 320px;
+  }
+  
+  .video-responsive {
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 500px; /* Maximum width for larger screens */
+    height: auto; /* Responsive height */
+  }
+  
+  .video-responsive iframe {
+    width: 100%; /* Adjusted to be responsive */
+    height: 100%; /* Adjusted to be responsive */
+  }
+  
+  @media screen and (max-width: 370px) {
+    .videoBox {
+      width: 100%; /* Adjusted for smaller screens */
+      padding: 10px; /* Adjusted for smaller screens */
     }
-    .videoContainer{
-        height: 200px;
-        width: 100%;
-        object-fit: contain;
+  
+    .videoContainer {
+      width: 100%;
+      height: auto; /* Responsive height */
+      max-height: 200px; /* Maximum height for smaller screens */
     }
-    .react-player{
-        width: 150px;
-    }
-}
+  }
