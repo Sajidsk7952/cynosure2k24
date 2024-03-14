@@ -34,10 +34,10 @@ const QueryForm = () => {
   };
   return (
     <div className="query_form_container">
-      <h2 className="query_form_heading" data-aos="fade-up">Enter any Query</h2>
+      <h2 className="query_form_heading">Enter any Query</h2>
       <form className="query_form" onSubmit={handleSubmit(submitHandler)}>
         <div className="query_form_element">
-          <div className="query_form_input" data-aos="fade-right" data-aos-duration="2000">
+          <div className="query_form_input" data-aos="fade-up" data-aos-duration="2000">
             <label htmlFor="name" className="query_form_input_label">
               Enter your name:
             </label>
@@ -52,7 +52,7 @@ const QueryForm = () => {
           </div>
           <p className="query_form_error">{formState.errors.name?.message}</p>
         </div>
-        <div className="query_form_element" data-aos="fade-left" data-aos-duration="2000">
+        <div className="query_form_element" data-aos="fade-up" data-aos-duration="2000">
           <div className="query_form_input">
             <label htmlFor="email" className="query_form_input_label">
               Enter your email:
