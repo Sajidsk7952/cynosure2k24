@@ -1,53 +1,83 @@
-.navbar{
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+.logo {
+    /* flex: 1; */
+  margin-top: 4px;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* .nav_button_container{
+    flex: 1;
+} */
+.nav_button {
+    align-items: flex-end;
+  padding: 0.8rem 1.3rem;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  animation: box-shadow 0.5s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.nav_button:hover {
+  box-shadow: none;
+  animation: glowEffect 0.5s ease-in infinite;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    width: 96vw;
+    padding: 10px 15px;
+  }
+
+  .nav_button {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar {
     width: 100%;
-    position: fixed;
-    z-index: 100;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 30px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.747);
+    padding: 10px;
+  }
+
+  .nav_button {
+    padding: 0.4rem 0.8rem;
+    font-size: 14px;
+    background-color: rgb(6, 6, 87);
+    animation: none;
+  }
+  .nav_button:hover{
+    box-shadow: none;
+    animation: none;
+  }
 }
-.logo{
-    margin-top: 10px;
-    font-size: 30px;
-    font-weight: bold;
-}
-.nav_button{
-    padding: 0.8rem 1.3rem;
-    font-size: 20px;
-    /* box-shadow: 4px 4px rgb(56, 55, 55); */
+
+@keyframes glowEffect {
+  0% {
+    box-sizing: none;
     background-color: transparent;
     color: white;
-    border: 1px solid white;
-    outline: none;
-    animation: box-shadow 0.5s;
-    cursor: pointer;
+  }
+  100% {
+    box-shadow: 6px 6px 10px rgb(3, 85, 247), -6px -6px 10px rgb(3, 85, 247);
+    background-color: rgb(3, 85, 247);
+  }
 }
 
-.nav_button:hover{
-    /* transform: translate(4px,4px); */
-    box-shadow: none;
-    animation: glowEffect 0.5s ease-in infinite;
-    /* animation-delay: 0.5s; */
-}
-
-@media screen and (max-width: 375px){
-    .navbar{
-        width: 320px;
-    }
-}
-@keyframes glowEffect {
-    0%{
-        box-sizing: none;
-        background-color: transparent;
-        color: white;
-    }
-    100%{
-        box-shadow: 4px 4px 8px rgb(3, 85, 247), -4px -4px 8px rgb(3, 85, 247);
-        background-color: rgb(3, 85, 247);
-    }
-}
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
