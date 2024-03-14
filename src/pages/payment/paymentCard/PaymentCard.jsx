@@ -1,10 +1,10 @@
 import React from "react";
 import { MdCurrencyRupee } from "react-icons/md";
 import "./paymentCars.css";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 const PaymentCard = ({ plan }) => {
-  console.log(plan);
-  const navigate = useNavigate();
+  // console.log(plan);
+  // const navigate = useNavigate();
   return (
     <div className="payment_card_container">
       <h2 className="payment_card_head">{plan.name}</h2>
@@ -22,13 +22,13 @@ const PaymentCard = ({ plan }) => {
             {ele}
           </li>
         ))}
-        <li className="payment_card_item">
+        {plan.price ? <li className="payment_card_item">
           starts from{" "}
           <span className="payment-card_price">
             <MdCurrencyRupee />
             {plan.price}
           </span>
-        </li>
+        </li> : null}
         <button className="payment_button">
           <a href={plan.url} target="_blank" rel="noopener noreferrer">
             Register

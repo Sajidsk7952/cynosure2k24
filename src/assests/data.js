@@ -168,7 +168,7 @@ export const cynosureEvents = [
         suggestion:
           "Familiarize yourself with design principles to create visually appealing web pages.",
         socialAccounts: {
-          email: "",
+          email: "nanduseenam2002@gmail.com",
           instagram: "",
         },
       },
@@ -177,8 +177,8 @@ export const cynosureEvents = [
         suggestion:
           "Pay attention to details to ensure the quality and functionality of your web projects.",
         socialAccounts: {
-          email: "",
-          instagram: "",
+          email: "avulacherry17@gmail.com",
+          instagram: "https://www.instagram.com/avula_charitha_17?igsh=MWwyYTdwdHFtd3Vudg==",
         },
       },
     ],

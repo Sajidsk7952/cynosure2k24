@@ -13,6 +13,7 @@
     text-align: center;
     margin: 10px 5px;
     color: white;
+    text-shadow: 4px 4px 6px gainsboro;
 }
 .payment_card_img_box{
     width: 100%;
@@ -59,6 +60,7 @@
     color: rgb(138, 80, 230);
     border-radius: 8px;
     transition: background-color 0.3s ease-in;
+    margin: 10px auto;
 }
 
 .payment_button:hover{

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import "./video.css";
 import AOS from "aos";
 import "aos/dist/aos.css";

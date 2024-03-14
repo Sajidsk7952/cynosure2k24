@@ -81,7 +81,7 @@ const Home = () => {
           </div>
         </section>
       <Cards />
-      {/* <VideoComp/> */}
+      <VideoComp/>
       <QueryForm />
     </>
   );

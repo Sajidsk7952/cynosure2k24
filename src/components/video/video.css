@@ -7,33 +7,40 @@
   background-color: rgb(2, 0, 15);
 }
 
-.videoContainer{
-    width: fit-content;
-    overflow: hidden;
+.videoContainer {
+  width: fit-content;
+  overflow: hidden;
 }
-.video-responsive{
+
+.video-responsive iframe {
+  width: 500px;
+  height: 300px;
+}
+@media screen and (max-width: 480px) {
+  .videoBox {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 0, 15);
+  }
+  .video-responsive iframe {
     width: 400px;
     height: 300px;
-    object-fit: cover;
-    height: fit-content;
-    /* overflow: hidden; */
+  }
 }
-.video-responsive iframe{
-    width: 500px;
+@media screen and (max-width: 360px) {
+  .videoBox {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 0, 15);
+  }
+  .video-responsive iframe {
+    width: 300px;
     height: 300px;
-}
-@media screen  and (max-width: 370px){
-    .videoBox{
-        /* margin-bottom: 150px; */
-        /* display: none; */
-        width: 320px;
-    }
-    .videoContainer{
-        height: 200px;
-        width: 100%;
-        object-fit: contain;
-    }
-    .react-player{
-        width: 150px;
-    }
+  }
 }
