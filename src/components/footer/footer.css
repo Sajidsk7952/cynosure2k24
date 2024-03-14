@@ -10,6 +10,12 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+
+  
 }
 
 .footer {

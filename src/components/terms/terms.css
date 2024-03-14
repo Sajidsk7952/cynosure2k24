@@ -9,6 +9,11 @@
     rgba(9, 9, 121, 1) 35%,
     rgba(32, 118, 135, 1) 100%
   );
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+
 }
 
 .tems_head {

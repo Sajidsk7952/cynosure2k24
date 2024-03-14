@@ -12,6 +12,11 @@
     rgba(7, 18, 79, 1) 35%,
     rgb(2, 0, 15) 100%
   );
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+
 }
 .cards-container {
   display: flex;

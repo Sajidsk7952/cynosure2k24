@@ -17,7 +17,6 @@ const VideoComp = () => {
           <iframe
             src="https://www.youtube.com/embed/9DbSHaOsLfI?si=8rSXRU5iNefpEnLU"
             title="YouTube video player"
-            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>

@@ -1,5 +1,5 @@
 .navbar{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     z-index: 100;
     display: flex;
@@ -7,6 +7,7 @@
     padding: 10px 30px;
     color: white;
     background-color: rgba(0, 0, 0, 0.747);
+    
 }
 
 .logo{
@@ -45,7 +46,7 @@
 
 @media screen and (max-width: 375px){
     .navbar{
-        width: 96vw;
+        width: 100%;
         padding: 10px;
     }
 

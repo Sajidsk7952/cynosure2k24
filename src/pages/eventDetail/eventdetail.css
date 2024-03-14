@@ -1,16 +1,11 @@
 .event-info {
-  /* max-width: 800px; */
   position: relative;
   top: 70px;
-  /* bottom: 50px; */
   margin: 0 auto;
   padding: 20px;
   color: #ffffffd9;
-  /* background: linear-gradient(to bottom, #0f0c29, #302b63, #2c5364); */
-  /* background: url('../../assests/starysky.jpeg') repeat; */
   background: url("https://mcdn.wallpapersafari.com/medium/35/80/kIQwgW.jpg") repeat;
-  /* background: url("https://c4.wallpaperflare.com/wallpaper/192/925/140/the-matrix-binary-abstract-minimalism-wallpaper-preview.jpg") no-repeat ; */
-  /* background: url("../../assests/cynosure_logo.png"); */
+  
 }
 
 .event-info-heading {
