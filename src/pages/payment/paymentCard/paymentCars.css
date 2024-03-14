@@ -47,7 +47,7 @@
 }
 .payment-card_price{
     display: inline;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: rgb(248, 6, 248);
 }
 .payment_button{

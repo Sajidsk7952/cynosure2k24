@@ -8,6 +8,7 @@ export const paymentData = [
     name: "silver",
     img: silver,
     price: 250,
+    url2: true,
     url: "https://pages.razorpay.com/cynosure2k24Silver",
     inclusions: [
       "The basic mandatory pass to enter cynosure",
@@ -20,6 +21,7 @@ export const paymentData = [
     name: "gold",
     img: gold,
     price: 350,
+    url2: true,
     url: "https://pages.razorpay.com/cynosure2k24Gold",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
@@ -32,6 +34,7 @@ export const paymentData = [
     name: "platinum",
     img: platinum,
     price: 450,
+    url2: true,
     url: "https://pages.razorpay.com/cynosure2k24Platinum",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
@@ -43,6 +46,7 @@ export const paymentData = [
     id: "4",
     name: "E Sports",
     img: esports,
+    url2: false,
     url: "https://docs.google.com/forms/d/e/1FAIpQLSc0k1HqVI-tezNJXsJbpasl7KN7uKt0x7yNJz1xcupUSUVAdQ/viewform?usp=sf_link",
     inclusions : [
       "For participation passes are not manadatory",
