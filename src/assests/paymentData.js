@@ -25,7 +25,7 @@ export const paymentData = [
     url: "https://pages.razorpay.com/cynosure2k24Gold",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
-      "Access to participate in any 2 events either technical or non-technical",
+      "Access to participate in any 2 individual events either technical or non-technical",
       "You will get Registration mail within 24 hrs after payment"
     ],
   },
@@ -38,7 +38,7 @@ export const paymentData = [
     url: "https://pages.razorpay.com/cynosure2k24Platinum",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
-      "Access to participate in any 4 events either technical or non-technical",
+      "Access to participate in any 4 individual events either technical or non-technical",
       "You will get Registration mail within 24 hrs after payment"
     ],
   },
