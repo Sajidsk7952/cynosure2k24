@@ -47,7 +47,7 @@ export const paymentData = [
     name: "E Sports",
     img: esports,
     url2: true,
-    url: " https://docs.google.com/forms/d/e/1FAIpQLSc0k1HqVI-tezNJXsJbpasl7KN7uKt0x7yNJz1xcupUSUVAdQ/viewform?usp=sf_link",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSc0k1HqVI-tezNJXsJbpasl7KN7uKt0x7yNJz1xcupUSUVAdQ/viewform?usp=sf_link",
     inclusions: [
       "For participation passes are not manadatory",
       "the event is held through online",
