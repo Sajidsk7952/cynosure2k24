@@ -6,6 +6,7 @@ import Register from "./pages/payment/Register";
 // import PaymentForm from "./pages/payment/paymentForm/PaymentForm";
 import Terms from "./components/terms/Terms";
 import NotFound from "./components/errorElement/NotFound";
+import Policies from "./components/policies/Policies";
 function App() {
   const routes = createBrowserRouter([
     {
@@ -25,6 +26,9 @@ function App() {
         },{
           path: '/terms',
           element : <Terms />
+        },{
+          path: '/policies',
+          element: <Policies />
         }
       ],
       errorElement: <NotFound />

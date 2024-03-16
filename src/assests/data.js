@@ -8,6 +8,10 @@ export const cynosureEvents = [
       "Unleash your creativity at Hackathon 2024. Solve problems, develop prototypes, and code for the future!",
     description:
       "Calling all tech enthusiasts! Gather your squad of four for an exhilarating journey of innovation and problem-solving at our Hackathon 2024. Dive deep into challenges, showcasing your creativity and tech prowess. Crack the code, unveil solutions, and stand out amidst the tech-savvy crowd. Develop a working prototype to earn extra points and push your limits. It's not just about winning; it's about the thrill of coding for the future! Are you ready to unleash your genius? ",
+    registrationDetails: [
+      "The entry fee for a team of four members is Rs. 100/-",
+      "Each team member must possess at least Silver pass.",
+    ],
     instructions: {
       rounds: 1,
       round1: [
@@ -38,8 +42,8 @@ export const cynosureEvents = [
         suggestion:
           "Foster strong collaboration within your team to maximize creativity and efficiency",
         socialAccounts: {
-          email: "",
-          instagram: "",
+          email: "https://www.instagram.com/rishitreddyyy/",
+          instagram: "rishitpalle@gmail.com",
         },
       },
     ],
@@ -53,6 +57,7 @@ export const cynosureEvents = [
       "Showcase reflexes, knowledge, and quick thinking. Seamless integration of technology. Join now!",
     description:
       "Join us for the Event Tech Quiz and unleash your tech prowess. Show off your lightning-fast reflexes, deep understanding of the subject matter, and quick thinking to claim the prestigious title of the event's champion. Dare to participate and be prepared for an unforgettable tech quiz experience.Our quiz features a seamless integration of technology. Questions are displayed on the monitor, while participants answer them using their personal mobile devices. This tech-savvy approach ensures a smooth and interactive experience for all participants. Throughout the quiz, a dynamic leaderboard is displayed for every question. The fastest participant with the correct answer takes the top spot. The fastest and most accurate contender will emerge as the ultimate winner.",
+    registrationDetails: [],
     instructions: {
       rounds: 2,
       round1: [
@@ -100,7 +105,7 @@ export const cynosureEvents = [
       "Unlock the secrets of database mastery at the Query Crackers Symposium",
     description:
       'Embark on a captivating exploration of the dynamic world of  querying at our exclusive "Query Crackers Symposium"..this is an event  meticulously crafted for students, professionals, and database enthusiasts eager to sharpen their skills in the art of formulating and solving queries."Query  cracker Challenge" invites you to unravel the complexity of database queries and compete for exciting prizes! This thrilling two-round event is tailored for those who love the intricacies of Database Management Systems (DBMS) and have a flair for SQL.Don\'t miss the chance to showcase your database expertise and compete for cash prizes in this ultimate SQL showdown!Join us at the Query Crackers Symposium and unravel the potential within your data!',
-
+    registrationDetails: [],
     instructions: {
       rounds: 2,
       round1: [
@@ -149,6 +154,7 @@ export const cynosureEvents = [
       "Test web development skills in HTML, CSS, JavaScript, crafting visually appealing pages under time constraints.",
     description:
       '"Web Wreathe" is a competitive event aimed at testing participants proficiency in web development technologies and design skills. Participants will engage in two rounds of challenges that assess their knowledge of HTML, CSS, JavaScript, and their ability to create visually appealing web pages under time constraints.',
+    registrationDetails: [],
     instructions: {
       rounds: 2,
       round1: [
@@ -178,7 +184,8 @@ export const cynosureEvents = [
           "Pay attention to details to ensure the quality and functionality of your web projects.",
         socialAccounts: {
           email: "avulacherry17@gmail.com",
-          instagram: "https://www.instagram.com/avula_charitha_17?igsh=MWwyYTdwdHFtd3Vudg==",
+          instagram:
+            "https://www.instagram.com/avula_charitha_17?igsh=MWwyYTdwdHFtd3Vudg==",
         },
       },
     ],
@@ -191,6 +198,7 @@ export const cynosureEvents = [
       "Engage in exhilarating rounds of mind-bending questions tailored to push your cryptographic skills to new heights",
     description:
       "Calling all codebreakers and problem solvers! Dive into the electrifying realm of cryptography! Ready to unravel the mysteries of encryption and decode complex messages? Join us for an event that will push your logical reasoning skills to the limit! In Caper with Cipher, expect nothing less than mind-bending puzzles and encrypted challenges that will test your intellect and ingenuity. It's your chance to showcase your expertise in the art of encryption and decipher the hidden meanings behind intricate codes. If you crave excitement, have an insatiable curiosity, and thrive on the thrill of cracking codes, then this is the event for you! Don't miss out on an unforgettable adventure into the captivating world of cryptography. Join us and let the cipher-solving journey begin! 🔍🔓",
+    registrationDetails: [],
     instructions: {
       rounds: 2,
       round1: [
@@ -242,6 +250,7 @@ export const cynosureEvents = [
       "Paper Presentation event is a dynamic forum where minds meet, ideas clash, and brilliance shines",
     description:
       "The 'Paper Presentation Challenge' invites you to present your research findings and compete for prestigious accolades! This exhilarating event is designed for those passionate about academic exploration and have a knack for effective presentation skills. Don't miss the opportunity to elevate your research and compete for recognition in this ultimate scholarly showcase!.",
+    registrationDetails: [],
     instructions: {
       rounds: 1,
       round1: [
@@ -271,6 +280,8 @@ export const cynosureEvents = [
       "Given technology",
       "VR and AR",
       "Smart Antena",
+      "Machine Learning",
+      "any topic related to technical innovations",
     ],
     coOrdinaters: [
       {
@@ -303,6 +314,7 @@ export const cynosureEvents = [
       "Compete in problem-solving without visuals, showcasing pure coding talent and ingenuity.",
     description:
       "Welcome to the Dazzle Coding Competition, an inclusive event designed to challenge and celebrate the programming skills of students. Organized by the BTech student community, this competition offers a unique platform for undergraduate and graduate students to showcase their coding prowess in a supportive and accessible environment. Participants have the option to compete individually or in teams of up to three members, collaborating to solve a series of coding challenges. Computers equipped with screen reader software and braille displays are provided. Participants will tackle a variety of programming tasks designed to test their problem-solving abilities, typing skills, and algorithmic thinking. Throughout the competition, organizers will provide assistance and technical support to ensure that all participants can fully engage with the challenges. Scores will be awarded based on the correctness, efficiency, and clarity of the code, with bonus points for creativity and innovative solutions. At the end of the event, top-performing individuals and teams will be recognized with prizes, certificates of achievement, and possibly sponsored gifts. Participants are encouraged to conduct themselves with professionalism and integrity, embodying the spirit of fair play and inclusivity. Join us for an unforgettable experience where talent knows no bounds and where the power of code transcends barriers. Together, let's code a brighter future for all.",
+    registrationDetails: [],
     instructions: {
       rounds: 1,
       round1: [
@@ -351,6 +363,7 @@ export const cynosureEvents = [
       "Engage in Non-Tech Quiz: Test your wits, compete, and win prizes in this thrilling event!",
     description:
       "Join us for Brain Battle Blitz, where you'll put your intelligence to the test, compete against fellow participants, and have the chance to win exciting prizes! Get ready for an exhilarating event packed with brain-teasing challenges and friendly rivalry. Don't miss out on the opportunity to showcase your wit and walk away with fantastic rewards. Register now and prepare for an unforgettable experience!",
+    registrationDetails: [],
     instructions: {
       rounds: 2,
       round1: [
@@ -393,6 +406,7 @@ export const cynosureEvents = [
       "Step into the shoes of a detective, where you'll gather clues, analyze evidences to win exciting prizes!",
     description:
       "CID Mystery Solving is a captivating event where participants step into the shoes of detectives to solve a complex murder mystery. Participants will examine crime scenes, interrogate suspects, and analyze evidence to unravel the truth. The event challenges participants deduction skills, teamwork, and attention to detail. As they race against time, participants must use their wit and investigative prowess to identify the killer and bring them to justice",
+    registrationDetails: [],
     instructions: {
       rounds: 1,
       round1: [
@@ -415,7 +429,8 @@ export const cynosureEvents = [
       },
       {
         name: "Harsha Chenna",
-        suggestion: "Take thorough notes during crime scene investigations and pay close attention to any clues.",
+        suggestion:
+          "Take thorough notes during crime scene investigations and pay close attention to any clues.",
         socialAccounts: {
           email: "chennaharsha11403@gmail.com",
           instagram:

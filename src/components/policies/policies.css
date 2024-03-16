@@ -1,0 +1,31 @@
+.policies-container {
+  position: relative;
+  top: 70px;
+  padding: 30px;
+  background: rgb(25, 21, 99);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 21, 99, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(32, 118, 135, 1) 100%
+  );
+}
+.policies-head {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 4px 4px 6px gray;
+}
+
+.policies-content {
+  margin: 20px;
+}
+.polies-info {
+  color: rgb(157, 159, 161);
+  font-size: 24px;
+  padding: 15px 10px;
+}
+.policies-info-head {
+  color: white;
+}

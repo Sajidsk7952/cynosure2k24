@@ -13,7 +13,7 @@ export const paymentData = [
     inclusions: [
       "The basic mandatory pass to enter cynosure",
       "2 days lunch will be provided",
-      "You will get Registration mail within 24 hrs after payment"
+      "You will get Registration mail within 24 hrs after payment",
     ],
   },
   {
@@ -26,7 +26,7 @@ export const paymentData = [
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
       "Access to participate in any 2 individual events either technical or non-technical",
-      "You will get Registration mail within 24 hrs after payment"
+      "You will get Registration mail within 24 hrs after payment",
     ],
   },
   {
@@ -39,19 +39,19 @@ export const paymentData = [
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
       "Access to participate in any 4 individual events either technical or non-technical",
-      "You will get Registration mail within 24 hrs after payment"
+      "You will get Registration mail within 24 hrs after payment",
     ],
   },
   {
     id: "4",
     name: "E Sports",
     img: esports,
-    url2: false,
-    url: "https://docs.google.com/forms/d/e/1FAIpQLSc0k1HqVI-tezNJXsJbpasl7KN7uKt0x7yNJz1xcupUSUVAdQ/viewform?usp=sf_link",
-    inclusions : [
+    url2: true,
+    url: " https://docs.google.com/forms/d/e/1FAIpQLSc0k1HqVI-tezNJXsJbpasl7KN7uKt0x7yNJz1xcupUSUVAdQ/viewform?usp=sf_link",
+    inclusions: [
       "For participation passes are not manadatory",
       "the event is held through online",
-      "Every Team must contain 4 players"
-    ]
+      "Every Team must contain 4 players",
+    ],
   },
 ];

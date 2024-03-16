@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHeart } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
+// import { FaWhatsapp } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { CiYoutube } from "react-icons/ci";
 import { Link } from "react-router-dom";
@@ -19,6 +19,9 @@ const Footer = () => {
           </h2>
           <p className="footer_terms">
             <Link to="/terms">terms & conditions</Link>
+          </p>
+          <p className="footer_terms">
+            <Link to="/policies">Privacy Policies</Link>
           </p>
         </div>
         <div className="icons" target="blank">

@@ -4,7 +4,7 @@ import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar';
 
 const RootPage = () => {
-    console.log("root page")
+    // console.log("root page")
   return (
     <div>
       <Navbar />
