@@ -58,7 +58,7 @@
   );
   filter: blur(15px);
   z-index: -1;
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   top: 0;
 }
