@@ -251,17 +251,21 @@ export const cynosureEvents = [
     description:
       "The 'Paper Presentation Challenge' invites you to present your research findings and compete for prestigious accolades! This exhilarating event is designed for those passionate about academic exploration and have a knack for effective presentation skills. Don't miss the opportunity to elevate your research and compete for recognition in this ultimate scholarly showcase!.",
     registrationDetails: [],
+    registationURL: "https://forms.gle/VPmhBMjPKnob6KxY9",
     instructions: {
       rounds: 1,
       round1: [
         "2-3 members per team will be allowed.",
+        "Event pass is a prerequisite for each individual for participation.",
         "You will have to present the papers in front of the judges offline (in the campus).",
         "Participants will be given 6 minutes to present their work and then there will be a 2-minute of Q&A session.",
         "They will be judged on the basis of their research, writing, presentation, and interpretation skills.",
         "candidates are required to bring along with them one soft copy (preferably in a pen drive) and 1 hard copy of the work on the day of the event.",
+        "Participants are welcome to attend the event on either the 23rd or 24th of March, offering flexibility for their schedules.",
         "The paper must contain participants’ names, department, year, e-mail ID, contact number and college name.        ",
+        "Presentations must be original work; plagiarism will result in disqualification.",
         "Participants will receive a specific presentation time slot, which will be updated later.",
-        "Basic event pass is a prerequisite for each individual for participation.        ",
+        "The judges decisions are final in case of any disputes.",
         "All the participants will get participation certificate.",
       ],
     },

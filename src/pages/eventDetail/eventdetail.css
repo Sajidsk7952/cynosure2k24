@@ -8,7 +8,8 @@
   color: #ffffffd9;
   /* background: linear-gradient(to bottom, #0f0c29, #302b63, #2c5364); */
   /* background: url('../../assests/starysky.jpeg') repeat; */
-  background: url("https://mcdn.wallpapersafari.com/medium/35/80/kIQwgW.jpg") repeat;
+  background: url("https://mcdn.wallpapersafari.com/medium/35/80/kIQwgW.jpg")
+    repeat;
   /* background: url("https://c4.wallpaperflare.com/wallpaper/192/925/140/the-matrix-binary-abstract-minimalism-wallpaper-preview.jpg") no-repeat ; */
   /* background: url("../../assests/cynosure_logo.png"); */
 }
@@ -28,7 +29,49 @@
   font-size: 16px;
   line-height: 1.6;
 }
+.event-info-registration {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.event-info-registration-btn {
+  margin: 10px 20px;
+  width: 165px;
+  height: 62px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  /* border: none; */
+  /* position: relative; */
+  background: #100720;
+  transition: 0.1s;
+}
+.event-info-registration-btn::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  filter: blur(15px);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
+.event-info-registration-btn:hover {
+  transform: scale(0.9) rotate(3deg);
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(255, 94, 247, 1) 17.8%,
+    rgba(2, 245, 255, 1) 100.2%
+  );
+  transition: 0.5s;
+}
 .event-inst-heading {
   font-size: 30px;
   margin: 20px 0px;
@@ -47,22 +90,22 @@
   padding: 10px 0px;
 }
 
-.topics{
+.topics {
   padding: 0px 20px;
 }
-.topic_head{
+.topic_head {
   font-size: 30px;
   margin: 20px 0px;
   text-decoration: underline;
 }
-.topic_text{
+.topic_text {
   padding: 10px 0px;
   font-size: 20px;
 }
-.topics_list{
+.topics_list {
   list-style: decimal;
 }
-.topic_info{
+.topic_info {
   padding: 5px;
 }
 .coordinator-cards {
@@ -109,11 +152,11 @@
   color: #007bff;
 }
 
-.coordinator-head{
-    margin-top: 10px;
-    font-size: 25px;
-    text-transform: capitalize;
-    text-decoration: underline;
+.coordinator-head {
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 .testimonialContainer {
   /* background-color: #646675; */

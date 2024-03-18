@@ -40,6 +40,22 @@ const EventInfoPage = () => {
       >
         {event.description}
       </p>
+      {event.registationURL?.length > 0 ? (
+        <div className="event-info-registration">
+          <h4>
+            Grab your slots now:
+            <a
+              href={event.registationURL}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="event-info-registration-btn">
+                Register Now
+              </button>
+            </a>
+          </h4>
+        </div>
+      ) : null}
       <h3
         className="event-inst-heading"
         data-aos="fade-up-right"
@@ -87,8 +103,10 @@ const EventInfoPage = () => {
             limited)
           </p>
           <ul className="topics_list">
-            {event.topics.map((topic,index)=>(
-              <li key={index} className="topic_info">{topic}</li>
+            {event.topics.map((topic, index) => (
+              <li key={index} className="topic_info">
+                {topic}
+              </li>
             ))}
           </ul>
         </div>
