@@ -123,7 +123,7 @@ const EventInfoPage = () => {
           <div
             className="testimonialContainer"
             key={coOrdinator.name}
-            data-aos="flip-up"
+            data-aos="fade-up"
             data-aos-duration="4000"
           >
             <div className="testimonialHeader">
