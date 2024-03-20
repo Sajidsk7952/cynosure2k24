@@ -8,7 +8,7 @@ export const paymentData = [
     name: "silver",
     img: silver,
     price: 250,
-    url2: true,
+    url2: false,
     url: "https://forms.gle/rNvbqniiH3rQrQMaA",
     inclusions: [
       "The basic mandatory pass to enter cynosure",
@@ -21,7 +21,7 @@ export const paymentData = [
     name: "gold",
     img: gold,
     price: 350,
-    url2: true,
+    url2: false,
     url: "https://forms.gle/rNvbqniiH3rQrQMaA",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",

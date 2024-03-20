@@ -37,7 +37,7 @@ const PaymentCard = ({ plan }) => {
         <button className="payment_button">
           {plan.url2 ? <a href={plan.url} target="_blank" rel="noopener noreferrer">
             Register
-          </a> : <p>Open soon</p>}
+          </a> : <p className="but_alt">Closed</p>}
         </button>
       </ul>
     </div>

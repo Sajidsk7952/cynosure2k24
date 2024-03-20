@@ -67,7 +67,9 @@
     background-color: rgb(138, 80, 230);
     color: white;
 }
-
+.but_alt{
+    color: white;
+}
 @media screen and (max-width: 700px) {
     .payment_card_container{
         width: 350px;
