@@ -34,7 +34,7 @@ export const paymentData = [
     name: "platinum",
     img: platinum,
     price: 450,
-    url2: true,
+    url2: false,
     url: "https://forms.gle/rNvbqniiH3rQrQMaA",
     inclusions: [
       "Access to all silver-tier benefits including event entry and 2 days of lunch",
